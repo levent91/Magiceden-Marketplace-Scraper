@@ -17,6 +17,7 @@
       "type": "boolean",
       "description": "Gets the raw data from MagicEden API",
       "default": false,
+      "prefill": false,
       "editor": "checkbox"
     },
     "getOnlySales": {
@@ -24,12 +25,15 @@
       "type": "boolean",
       "description": "Gets only sales",
       "default": false,
+      "prefill": false,
       "editor": "checkbox"
     },
     "maxConcurrency": {
       "title": "Max Concurrency",
       "type": "integer",
       "description": "Maximum Concurrency",
+      "default": 10,
+      "prefill": 10,
       "editor": "number"
     },
     "proxy": {
@@ -37,6 +41,9 @@
       "type": "object",
       "description": "Configure Proxy Settings",
       "default": {
+        "useApifyProxy": true
+      },
+      "prefill": {
         "useApifyProxy": true
       },
       "editor": "proxy"
