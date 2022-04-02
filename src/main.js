@@ -59,7 +59,7 @@ Apify.main(async () => {
 
     log.info('Starting the scrape.');
     await crawler.run();
-    log.info('Scrape finished... Pushing the data');
+    log.info('Pushing the data to the dataset...');
 
     await Apify.setValue('STATE', state);
     for (const item of Object.keys(state)) {
@@ -74,4 +74,7 @@ Apify.main(async () => {
         The input format should be as following:
         https://magiceden.io/marketplace/boryoku_dragonz`)
     }
+
+    log.info(`Run finished successfully.
+    Tipjar: 6RsGMzf91c51THxwmt2tq78sxJvPm3PiQBEyJHDXog64`);
 });
