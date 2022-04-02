@@ -9,7 +9,8 @@
       "type": "array",
       "description": "List URLs of Collections",
       "editor": "requestListSources",
-      "default": ["https://magiceden.io/marketplace/boryoku_dragonz"]
+      "default": ["https://magiceden.io/marketplace/boryoku_dragonz"],
+      "prefill": ["https://magiceden.io/marketplace/boryoku_dragonz"]
     },
     "sendRaw": {
       "title": "Get the raw data",
