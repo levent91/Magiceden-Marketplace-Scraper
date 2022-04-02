@@ -3,7 +3,7 @@ import { SOURCES, LABELS } from './consts.js';
 
 export const requestBuilder = async (startUrls, requestQueue) => {
     for (const { url } of startUrls) {
-        const domain = url.match(/[a-zA-Z0-9][a-zA-Z0-9-]{1,61}[a-zA-Z0-9](?:\.[a-zA-Z]{2,})+/)[0];
+        const domain = new URL(url).hostname;
         const collection = url.split('/')[4];
         // tba other marketplaces check tbdjs
         if (domain === SOURCES.MAGICEDEN) {
