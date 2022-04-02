@@ -7,7 +7,7 @@
     "startUrls": {
       "title": "Magiceden Collection URLs",
       "type": "array",
-      "description": "List URLs of Collections",
+      "description": "List URLs of Collections, Format: https://magiceden.io/marketplace/boryoku_dragonz",
       "editor": "requestListSources",
       "default": ["https://magiceden.io/marketplace/boryoku_dragonz"],
       "prefill": ["https://magiceden.io/marketplace/boryoku_dragonz"]
