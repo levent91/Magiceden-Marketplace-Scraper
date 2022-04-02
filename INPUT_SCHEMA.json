@@ -17,7 +17,6 @@
       "type": "boolean",
       "description": "Gets the raw data from MagicEden API",
       "default": false,
-      "prefill": false,
       "editor": "checkbox"
     },
     "getOnlySales": {
@@ -25,7 +24,6 @@
       "type": "boolean",
       "description": "Gets only sales",
       "default": false,
-      "prefill": false,
       "editor": "checkbox"
     },
     "maxConcurrency": {
