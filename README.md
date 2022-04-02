@@ -1,10 +1,10 @@
 # Magiceden Marketplace Scraper
 
-This actor takes a collection input and scrapes the data from Magiceden API.
+This actor takes a collection input and scrapes the data from Magiceden API (Solana Network NFT Marketplace).
 
 ### Input
 
-#### startUrls <Array>
+### startUrls <Array>
 The Array of collection urls that you want to scrape.
 
 The format should be as following:
