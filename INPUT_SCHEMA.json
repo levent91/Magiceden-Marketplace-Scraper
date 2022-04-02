@@ -1,0 +1,45 @@
+{
+  "title": "Magiceden API Scraper Input Schema",
+  "description": "This is Magiceden API Scraper Input Schema",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "startUrls": {
+      "title": "Magiceden Collection URLs",
+      "type": "array",
+      "description": "List URLs of Collections",
+      "editor": "requestListSources",
+      "default": ["https://magiceden.io/marketplace/boryoku_dragonz"]
+    },
+    "sendRaw": {
+      "title": "Get the raw data",
+      "type": "boolean",
+      "description": "Gets the raw data from MagicEden API",
+      "default": false,
+      "editor": "checkbox"
+    },
+    "getOnlySales": {
+      "title": "Don't get listings",
+      "type": "boolean",
+      "description": "Gets only sales",
+      "default": false,
+      "editor": "checkbox"
+    },
+    "maxConcurrency": {
+      "title": "Max Concurrency",
+      "type": "integer",
+      "description": "Maximum Concurrency",
+      "editor": "number"
+    },
+    "proxy": {
+      "title": "Proxy Configuration",
+      "type": "object",
+      "description": "Configure Proxy Settings",
+      "default": {
+        "useApifyProxy": true
+      },
+      "editor": "proxy"
+    }
+  },
+  "required": ["startUrls"]
+}

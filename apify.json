@@ -1,0 +1,7 @@
+{
+	"name": "solana-nft-collections",
+	"version": "0.0",
+	"buildTag": "latest",
+	"env": null,
+	"template": "project_cheerio_crawler"
+}
