@@ -1,4 +1,4 @@
-# Magic Eden Marketplace Scraper
+## Magic Eden Marketplace Scraper
 
 This actor takes a collection input and scrapes the data from Magic Eden API (Solana Network NFT Marketplace). There are mainly 2 types of results, raw and beautified. The beautified (default) one just beautifies the outputs from the raw source and adds some information such as "Unique Buyer Percentage" etc, whereas raw results just outputs the raw information from the Magic Eden API
 
