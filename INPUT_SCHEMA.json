@@ -9,11 +9,12 @@
       "type": "array",
       "description": "List URLs of Collections, Format: https://magiceden.io/marketplace/boryoku_dragonz",
       "editor": "requestListSources",
-      "prefill": [{ "url": "https://magiceden.io/marketplace/boryoku_dragonz"},
-        {"url": "https://magiceden.io/marketplace/degods"}
+      "prefill": [
+        { "url": "https://magiceden.io/marketplace/boryoku_dragonz" },
+        { "url": "https://magiceden.io/marketplace/degods" }
         ],
-        "default": [{
-        "url": "https://magiceden.io/marketplace/boryoku_dragonz"}
+        "default": [
+        { "url": "https://magiceden.io/marketplace/boryoku_dragonz" }
         ]
     },
     "sendRaw": {
